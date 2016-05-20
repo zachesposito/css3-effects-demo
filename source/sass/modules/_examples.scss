@@ -31,3 +31,41 @@
 .skew { 
 	transform:skewX(30deg);
 }
+
+.threedtransform-container {
+	perspective:600px;
+}
+.threedtransform-img {	
+	transform:rotate3d(1,1,1,-34deg);
+}
+
+.transitions-photos {
+
+	img {
+		margin-right:2em;
+		transition:transform .4s;
+		max-width:275px;
+
+		&:hover {
+			transform:scale(1.3);
+		}
+	}
+}
+
+.loading-bar-container {
+	border:2px solid white !important;
+	width:100% !important;
+	height:40px !important;
+	overflow:hidden;
+}
+.loading-bar {
+	height:100%;
+	width:100%;
+	transition:transform 3.5s !important;
+	transform: translateX(-100%);
+	background:#5555ff !important;
+
+	.loading-bar-container:hover & {
+		transform: translateX(0);
+	}
+}
