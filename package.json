@@ -1,0 +1,19 @@
+{
+  "name": "css3presentation",
+  "version": "0.0.1",
+  "description": "short lunch and learn on css3",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Esposito",
+  "license": "ISC",
+  "devDependencies": {
+    "load-grunt-config": "^0.17.1",
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
+}

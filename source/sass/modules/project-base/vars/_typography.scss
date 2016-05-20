@@ -1,0 +1,21 @@
+/*$base-font-family: Verdana, Arial, Helvetica, sans-serif;*/
+$base-font-family: 'Open Sans', sans-serif;
+$font-size--base--px:16px;
+$font-size--base: 1em;
+$font-size--tiny: .72em;
+$font-size--small: .86em;
+$font-size--husky: 1.505em;
+$font-size--fluffy: 2em;
+
+$font-size--primary-heading: $font-size--fluffy;
+$font-size--subheading: $font-size--husky;
+
+$small-screen-scale-factor: .86;
+$base-line-height: 1.6;
+$letter-spacing--heading:.8px;
+
+.baseline-symbol {
+	font-size:$font-size--tiny;
+}
+
+$typographic-quote-string: "\201C" "\201D" "\2018" "\2019";

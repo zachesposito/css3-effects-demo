@@ -1,0 +1,18 @@
+
+// $palette__primary: ;
+// $palette__secondary: ;
+// $palette__complement: ;
+
+$text-color: #333;
+$text-color--light:lighten($text-color,10%);
+
+$text-color--on-dark: lighten($text-color,50%);
+$text-color--light--on-dark: lighten($text-color,65%);
+
+$text-color--heading: darken($text-color,10%);
+
+$background-color:#fff;
+$background-color--lightest: #fff;
+
+$link-color:$text-color--light;
+$link-color--hover:$text-color;

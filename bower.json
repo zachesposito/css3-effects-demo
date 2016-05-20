@@ -1,0 +1,20 @@
+{
+  "name": "css3presentation",
+  "version": "0.0.1",
+  "description": "short lunch and learn on css3",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.1.1"
+  },
+  "devDependencies": {
+    "reveal.js": "^3.3.0",
+    "jquery": "^2.2.3"
+  }
+}

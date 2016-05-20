@@ -1,0 +1,101 @@
+*, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+body {
+    font-family: $base-font-family;
+    line-height: $base-line-height;
+    font-weight: 300;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    padding:0;
+    margin:0;
+    font-size:$font-size--base--px
+}
+
+/**
+    * Reset some basic elements
+    */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+    * Set `margin-bottom` to maintain vertical rhythm
+    */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure {
+    margin-bottom:$spacing-unit;
+}
+
+/**
+    * Images
+    */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+/**
+    * Figures
+    */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $font-size--small;
+}
+
+/**
+    * Lists
+    */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    margin-bottom:$spacing-unit;
+
+    > ul,
+    > ol {
+            margin-bottom: 0;
+    }
+}
+
+q {
+  	quotes: $typographic-quote-string;
+}
+q:before { 
+	content: open-quote;
+}
+q:after {
+	content: close-quote;
+}
+/**
+    * Headings
+    */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+/**
+    * Links
+    */
+a {
+    text-decoration:none; 
+    @include transition--base(color);
+    color: $link-color; 
+	&:hover {
+        color:$link-color--hover;
+    }
+}
+
+dfn {
+    font-style:normal;
+}
